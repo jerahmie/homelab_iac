@@ -7,17 +7,6 @@ terraform {
   }
 }
 
-
-# Create a test vm in terraform
-
-provider "xenorchestra" {
-  # Must be ws or wss
-  url = "ws://192.168.1.71"
-  username = "admin@admin.net"
-  password = ""
-  insecure = true
-}
-
 data "xenorchestra_pool" "localhost" {
   name_label = "localhost"
 }
