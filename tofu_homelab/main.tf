@@ -14,7 +14,7 @@ provider "xenorchestra" {
   # Must be ws or wss
   url = "ws://192.168.1.71"
   username = "admin@admin.net"
-  password = "admin"
+  password = ""
   insecure = true
 }
 
